@@ -26,7 +26,7 @@ function App() {
     <div className="app-container">
       <div className="card">
         <h1 className="title">💬 Quote Generator</h1>
-        <p className="quote">{loading ? "Loading..." : quote}</p>
+        <p className="quote">{loading ? " " : quote}</p>
         <button onClick={fetchQuote} className="btn">
           New Quote
         </button>
