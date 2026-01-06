@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
-
+ 
 const quotes = [
   "Be a voice, not an echo.",
   "Coffee first, schemes later.",
